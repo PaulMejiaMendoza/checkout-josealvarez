@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* Iniciación de la propiedad "display" para etiquetas de HTML5 para navegadores antiguos */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1.65rem; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.container { width: 23.4375rem; height: 41.6875rem; font-family: Arial, Helvetica, sans-serif; letter-spacing: 0.5px; }
+
+.header { display: inline-flex; align-items: center; justify-content: center; flex-direction: column; width: 23.4375rem; height: 8.4375rem; background-color: #529b1c; color: #fff; }
+
+.header .header__img { width: 3.5rem; height: 3.5rem; }
+
+.header .header__stripe { font-size: 1.25rem; font-weight: bold; }
+
+.header .header__widget { font-size: 0.875rem; line-height: 1rem; font-weight: 100; }
+
+.form { display: flex; flex-wrap: wrap; justify-content: center; height: 11.5rem; width: 23.4375rem; font-size: 0.9375rem; margin: 0; }
+
+.form .form__group { justify-items: center; width: 23.4375rem; height: 2.875rem; padding: 14px 33px 15px 0; border-bottom: 1px solid #e5e5e8; }
+
+.form .form__group .form__label svg { margin: 0 8px 0 10px; }
+
+.form .form__group .form__control { border: transparent; width: 3.8125rem; height: 1.125rem; margin-left: 2.0625rem; }
+
+.form .form__group .form__control::placeholder { color: #c7c7cd; letter-spacing: 0.1px; font-size: 0.9375rem; }
+
+.form .form--exp { width: 11.21875rem; border-right: 1px solid #e5e5e8; padding-right: 0; }
+
+.form .form--exp .form--inputexp { margin-left: 28px; }
+
+.form .form--exp .form--inputexp::placeholder { color: #c7c7cd; }
+
+.form .form--cvv { width: 12.15625rem; }
+
+.form .form--cvv .form--inputcvv { width: 1.625rem; height: 1.125rem; margin-left: 19px; }
+
+.form .form--remember { padding-right: 0; }
+
+.form .form--remember .form--inputrem { margin-left: 160px; }
+
+footer { position: fixed; display: flex; justify-content: center; align-items: center; bottom: 0; width: 23.4375rem; height: 4.1875rem; background-color: #37a7e8; }
+
+.btn { padding: 0; margin: 0; color: #fff; border: none; }
+
+.btn--close { letter-spacing: 0.5px; font-weight: bold; font-size: 20px; font-style: normal; z-index: 10; background-color: #37a7e8; }
+
+.btn--close:hover { color: black; }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,65 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 11.5rem;
+  width: 23.4375rem;
+  font-size: 0.9375rem;
+  margin: 0;
+  
+  .form__group {
+    justify-items: center;
+    width: 23.4375rem;
+    height: 2.875rem;
+    padding: 14px 33px 15px 0;
+    border-bottom: 1px solid #e5e5e8;
+
+    .form__label {
+      svg{
+        margin: 0 8px 0 10px;
+        }
+    }
+    .form__control {
+      border: transparent;
+      width: 3.8125rem;
+      height: 1.125rem;
+      margin-left: 2.0625rem;
+
+      &::placeholder {
+        color: #c7c7cd;
+        letter-spacing: 0.1px;
+        font-size: 0.9375rem;
+      } 
+    }
+  }
+  
+  .form--exp {
+    width: 11.21875rem;
+    border-right: 1px solid #e5e5e8;
+    padding-right: 0;
+    
+    .form--inputexp {
+      margin-left: 28px;
+      &::placeholder{
+      color: #c7c7cd;
+      }
+    }
+  }
+
+  .form--cvv {
+    width: 12.15625rem;
+
+    .form--inputcvv {
+      width: 1.625rem;
+      height: 1.125rem;
+      margin-left: 19px;
+    }
+  }
+
+  .form--remember {
+    padding-right: 0;
+    .form--inputrem {
+      margin-left: 160px;
+    }
+  }
+}

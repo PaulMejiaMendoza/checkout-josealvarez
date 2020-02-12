@@ -1,0 +1,25 @@
+.header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 23.4375rem;
+  height: 8.4375rem;
+  background-color: #529b1c;
+  color: #fff;
+  .header__img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .header__stripe {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .header__widget {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    font-weight: 100;
+  }
+}
